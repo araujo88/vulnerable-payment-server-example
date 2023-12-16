@@ -1,0 +1,24 @@
+{
+  "name": "vulnerable-payment-server-example",
+  "version": "1.0.0",
+  "description": "A vulnerable payment server example and a fix. DON'T use in production!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon vulnerable_server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/araujo88/vulnerable-payment-server-example.git"
+  },
+  "author": "Leonardo Araujo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/araujo88/vulnerable-payment-server-example/issues"
+  },
+  "homepage": "https://github.com/araujo88/vulnerable-payment-server-example#readme",
+  "dependencies": {
+    "async-mutex": "^0.4.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
