@@ -2,7 +2,7 @@
 
 A vulnerable payment server example and a fix. DON'T use in production!
 
-## Server vulnerable to race conditio
+## Server vulnerable to race condition
 
 This is a basic example of a payment server that demonstrates a vulnerability to double spending. It's important to remember that this code is for LEARNING purposes only and should NOT be used in a production environment!
 
