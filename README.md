@@ -65,7 +65,7 @@ To test this, you can use a tool like Postman or a simple script to send multipl
 
 ## How to fix
 
-JvaScript and Node.js do not have built-in mutex or semaphore constructs like some other languages do. We can, however, simulate a mutex using async/await patterns and Promises, or use a library that provides a mutex or semaphore implementation.
+JavaScript and Node.js do not have built-in mutex or semaphore constructs like some other languages do. We can, however, simulate a mutex using async/await patterns and Promises, or use a library that provides a mutex or semaphore implementation.
 
 We'll use the `async-mutex` library which provides a Mutex class that can be used to ensure that only one piece of code can access the critical section at a time. Here's how we can refactor the code to use `async-mutex`:
 
